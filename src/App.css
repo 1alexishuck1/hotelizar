@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; /* Color de fondo de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B1CFEB; /* Color del pulgar (parte arrastrable) de la barra de desplazamiento */
+  border-radius: 10px;
+}
+
+/* Para navegadores basados en Firefox */
+/* Nota: Firefox no soporta cambiar el color de la barra de desplazamiento actualmente, pero puedes personalizar el color del pulgar (parte arrastrable) */
+/* Se utiliza la propiedad scrollbar-color para establecer el color del pulgar */
+/* Puedes cambiar #888 por el color deseado */
+/* Por ejemplo: scrollbar-color: red yellow; para cambiar el color del pulgar a rojo y amarillo */
+/* scrollbar-width: thin; también puede ser utilizado para establecer el ancho de la barra de desplazamiento */
+
+/* Ejemplo general para personalizar la barra de desplazamiento en navegadores basados en Firefox */
+/* Asegúrate de que el navegador Firefox tiene la propiedad "layout.css.scrollbar-color.enabled" establecida en true en about:config */
+body {
+  scrollbar-color: #B1CFEB #fff;
+  border-radius: 10px;
+  scrollbar-width: thin;
+}

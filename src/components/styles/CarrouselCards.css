@@ -1,0 +1,13 @@
+.CarrouselCards__container{
+    width: 100%;
+    margin: 0 !important;
+}
+
+.slick-slider{
+    margin: 0 !important;
+}
+
+.slick-arrow{
+    display: none !important;
+
+}

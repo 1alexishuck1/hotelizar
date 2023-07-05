@@ -1,0 +1,73 @@
+.card-promo__container{
+    width: 350px;
+    height: 120px;
+}
+
+.card-promo__contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.card-promo__img{
+    width: 150px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-promo__datos{
+    width: 200px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-promo__img img{
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card-promo__nombre p,
+.card-promo__estrellas,
+.card-promo__descripcion p,
+.card-promo__precio p{
+    margin: 0;
+    margin-left:  5px;
+}
+
+.card-promo__descripcion p{
+    margin-top: 5px;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.6)
+}
+
+.card-promo__nombre p{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.card-promo__precio{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-promo__icons{
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.card-promo__precio p{
+    margin-top: 5px;
+    color: #012231;
+    font-weight: bold;
+}

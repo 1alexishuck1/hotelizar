@@ -1,0 +1,89 @@
+.card-resultados__container{
+    width: 400px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.card_resultados__img img{
+    width: 175px;
+    height: 125px;
+    border-radius: 10px 0 0 10px;
+}
+
+.card_resultados__descripcion{
+    width: 300px;
+    
+}
+
+.card-resultados__titulo h3{
+    margin: 0;
+    font-size: 15px;
+}
+
+.card-resultados__estrellas{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card-promo__icons,
+.card-resultados__estrellas-texto,
+.card-resultados__precio p{
+    color: rgba(83, 83, 83, 0.6)
+}
+
+.card-resultados__estrellas-texto{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px
+}
+
+.card-resultados__descripcion{
+    display: flex;
+    width: 60px;
+    flex-direction: column;
+    align-items: center
+}
+
+.card-resultados__descripcion p,
+.card-resultados__precio p{
+    margin: 0
+}
+
+.resultados__icons,
+.card-resultados__descripcion p{
+    font-size: 15px;
+}
+
+.card-resultados__detalles{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+    margin-top: 5px;
+    background-color: #012231;
+    height: 40px;
+    color: #fff;
+    margin-left: -5px;
+    align-items: center;
+}
+
+.card-resultados__precio{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    gap: 5px
+}
+
+.card-resultados__precio b{
+    font-size: 18px;
+    color: #012231;
+}

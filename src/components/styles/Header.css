@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header__container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__banner{
+    width: 100%;
+    height: 50px;
+    background-color: #B1CFEB;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content:center
+}
+
+.header-banner__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    max-width: 1300px;
+    font-weight: bold;
+}
+
+.header__cards{
+    width: 80%;
+    display: flex;
+    margin-top:100px;
+}
+
+.header__carrousel{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-contenedor{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-contenido__conteiner{
+    max-width: 1300px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header__titulo{
+    margin-top: 200px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__titulo h3{
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header__titulo h5{
+    font-size: 20px;
+    margin: 0;
+}
+
+.header__titulo p{
+    font-size: 17px;
+    margin: 0;
+    color: #fff;
+}
